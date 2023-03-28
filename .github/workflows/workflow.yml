@@ -15,13 +15,12 @@ jobs:
 
     steps:
       - name: Checkout 
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
       - name: Install and build
         run: npm install && npm run build
 
       - name: Deploy 
-        uses: JamesIves/github-pages-deploy-action@v4.1.1
-        with:
+        uses: JamesIves/github-pages-deploy-action@v4
           branch: gh-pages
           folder: build
