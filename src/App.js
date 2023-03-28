@@ -23,7 +23,7 @@ function App() {
 
       <script type="text/babel">
         function Hello() {
-          return <h1>Hello World!</h1>;
+          return <h1>Hello Worldss!</h1>;
         }
 
         ReactDOM.render(<Hello />, document.getElementById('mydiv'))
