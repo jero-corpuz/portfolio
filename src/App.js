@@ -8,7 +8,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-          <h1>Hello World!</h1>
         </p>
         <a
           className="App-link"
@@ -19,6 +18,17 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <div id="mydiv"></div>
+
+      <script type="text/babel">
+        function Hello() {
+          return <h1>Hello World!</h1>;
+        }
+
+        ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+      </script>
+
     </div>
   );
 }
