@@ -19,15 +19,6 @@ function App() {
         </a>
       </header>
 
-      <div id="mydiv"></div>
-
-      <script type="text/babel">
-        function Hello() {
-          return <h1>Hello Worldss!</h1>;
-        }
-
-        ReactDOM.render(<Hello />, document.getElementById('mydiv'))
-      </script>
 
     </div>
   );
